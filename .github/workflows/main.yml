@@ -1,4 +1,4 @@
-name: hello-world
+name: presentation demo
 on: push
 jobs:
   my-job:
