@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: dart-lang/setup-dart@v1
+     # - uses: dart-lang/setup-dart@v1
 
       - run: dart run test1.dart
