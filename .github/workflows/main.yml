@@ -4,7 +4,10 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: dart-lang/setup-dart@v1
+    
+      - name: access to the repository
+        uses: actions/checkout@v3
+      - name: install dart
+        uses: dart-lang/setup-dart@v1
 
       # - run: dart run test1.dart
