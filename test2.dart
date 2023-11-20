@@ -1,4 +1,4 @@
-int age = 20;
-String name = 'CA";
+int age = 20
+String name = 'CA';
 
 print(name);
